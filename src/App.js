@@ -105,43 +105,41 @@ export default function Board() {
   return (
     <>
     <h1>5x5 TicTacToe</h1>
-    <div className="game">
-      <div className="board-row"> 
-        <Square label="0"/>
-        <Square label="1"/>
-        <Square label="2"/>
-        <Square label="3"/>
-        <Square label="4"/>
-      </div> 
-      <div className="board-row"> 
-        <Square label="5"/>
-        <Square label="6"/>
-        <Square label="7"/>
-        <Square label="8"/>
-        <Square label="9"/>
-      </div> 
-      <div className="board-row"> 
-        <Square label="10"/>
-        <Square label="11"/>
-        <Square label="12"/>
-        <Square label="13"/>
-        <Square label="14"/>
-      </div> 
-      <div className="board-row"> 
-        <Square label="15"/>
-        <Square label="16"/>
-        <Square label="17"/>
-        <Square label="18"/>
-        <Square label="19"/>
-      </div> 
-      <div className="board-row"> 
-        <Square label="20"/>
-        <Square label="21"/>
-        <Square label="22"/>
-        <Square label="23"/>
-        <Square label="24"/>
-      </div> 
-    </div>
+    <div className="board-row"> 
+      <Square label="0"/>
+      <Square label="1"/>
+      <Square label="2"/>
+      <Square label="3"/>
+      <Square label="4"/>
+    </div> 
+    <div className="board-row"> 
+      <Square label="5"/>
+      <Square label="6"/>
+      <Square label="7"/>
+      <Square label="8"/>
+      <Square label="9"/>
+    </div> 
+    <div className="board-row"> 
+      <Square label="10"/>
+      <Square label="11"/>
+      <Square label="12"/>
+      <Square label="13"/>
+      <Square label="14"/>
+    </div> 
+    <div className="board-row"> 
+      <Square label="15"/>
+      <Square label="16"/>
+      <Square label="17"/>
+      <Square label="18"/>
+      <Square label="19"/>
+    </div> 
+    <div className="board-row"> 
+      <Square label="20"/>
+      <Square label="21"/>
+      <Square label="22"/>
+      <Square label="23"/>
+      <Square label="24"/>
+    </div> 
     </>
   ); 
 
